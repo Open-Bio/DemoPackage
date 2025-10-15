@@ -1,0 +1,17 @@
+[project]
+name = "DemoPackage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Younthing", email = "fanxingfu3344@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.entry-points."uflow.packages"]
+DemoPackage = "DemoPackage:DemoPackage"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
