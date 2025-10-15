@@ -411,9 +411,9 @@ uflowInstance = self.getGraph().graphManager.get()
 
 - __uflow 核心__: `uflow/Core/`
 - __其他包示例__:
-  - `uflowBase`: 基础节点（数学、逻辑、变量）
+  - `FlowBasePackage`: 基础节点（数学、逻辑、变量）
   - `uflowDataAnalysis`: DataFrame 处理示例
-  - `uflowOpenCv`: 图像处理示例
+  - `OpenCVPackage`: 图像处理示例
 - __开发指南__: `notes/` 目录（中文详细指南）
 - __测试示例__: `uflow/Tests/`
 

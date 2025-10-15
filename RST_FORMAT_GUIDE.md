@@ -13,6 +13,7 @@
 ## 受影响的位置
 
 1. **类节点的 `description()` 方法返回值**（Nodes/）
+
    ```python
    @staticmethod
    def description():
@@ -20,6 +21,7 @@
    ```
 
 2. **函数节点的 docstring**（FunctionLibraries/）
+
    ```python
    @IMPLEMENT_NODE(...)
    def myFunction(param=('StringPin', '')):
@@ -135,7 +137,7 @@ def description():
 
 1. **段落之间留空行**：不同段落必须用空行分隔
 2. **列表格式**：
-   - 使用 `- ` 或 `* ` 开头
+   - 使用 `-` 或 `*` 开头
    - 列表项保持相同缩进
    - 列表前后要有空行
 3. **代码块**：
@@ -156,7 +158,7 @@ def description():
 2. **使用标准结构**：参考上面的正确示例
 3. **测试描述**：鼠标悬停到节点上检查是否有错误
 4. **在线验证**：可以使用在线 rst 验证工具检查格式
-5. **查看示例**：参考 uflowBase 包中的节点描述
+5. **查看示例**：参考 FlowBasePackage 包中的节点描述
 
 ## 修复步骤
 
@@ -172,4 +174,4 @@ def description():
 
 - [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 - [RST Quick Reference](https://docutils.sourceforge.io/docs/user/rst/quickref.html)
-- uflowBase 包中的节点描述示例
+- FlowBasePackage 包中的节点描述示例
